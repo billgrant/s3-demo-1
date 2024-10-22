@@ -4,7 +4,7 @@ module "s3_pov" {
   source  = "app.terraform.io/billgrant/s3-demo/aws"
   version = "1.0.2"
   # change tag names if desired
-  environment = "dev"
+  environment = "prod"
   name        = "test"
 }
 
